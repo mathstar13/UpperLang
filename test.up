@@ -1,9 +1,0 @@
-START program
-METHOD t
-START t
-SYSRUN echo $1
-END t
-COMMAND d=t
-ADDATTRIBUTE d=Test
-EXECUTE d
-END program
